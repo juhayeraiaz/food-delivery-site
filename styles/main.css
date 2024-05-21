@@ -1,9 +1,142 @@
+* {
+  font-family: "Inter",
+    sans-serif;
+  ;
+}
+
+.main-logo {
+  width: 42px;
+  height: 42px;
+  font-size: 42px;
+}
+
 .signup-btn {
-    background: #E94339;
-    padding: 8px 8px;
-    border-radius: 36px;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 28px;
+  background: #e94339;
+  padding: 14px 24px;
+  border-radius: 36px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.hero-left {
+  max-width: 585px;
+}
+
+.hero-left p {
+  max-width: 500px;
+}
+
+.button {
+  background-color: #ff5331;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+
+.hero-img {
+  width: 570px;
+  height: 478px;
+  border-radius: 36px;
+}
+
+.hero-form {
+  position: relative;
+}
+
+.hero-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.dish-text {
+  width: 622px;
+  font-size: 46px;
+  font-weight: 600;
+  letter-spacing: -1;
+  font-size: "Inter", sans-serif;
+  line-height: 58px;
+}
+
+.simple-card-lg {
+  padding: 30px;
+  background-color: #fafafa;
+  border-radius: 28px;
+}
+
+.simple-card-lg h2 {
+  max-width: 427px;
+  font-weight: 500;
+  font-size: 25.8px;
+  text-align: left;
+}
+
+.simple-card-lg img {
+  width: 192px;
+  height: 116px;
+}
+
+.simple-card {
+  border-radius: 28px;
+  padding: 30px;
+  background-color: #fafafa;
+  width: 168px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.simple-card p {
+  color: #191720;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.simple-card-icon {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.simple-card-icon span {
+  font-size: 40px;
+}
+
+.simple-card-two h4 {
+  text-align: left;
+  color: #ff5331;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 54px;
+  position: relative;
+}
+
+.simple-card-two-body {
+  z-index: 1;
+  margin-top: -30px;
+  background-color: #fafafa;
+  padding: 44px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.simple-card-two-body p {
+  color: #191720;
+  font-weight: 500;
+  list-style: 34px;
+  font-size: 24px;
+  max-width: 150px;
 }
